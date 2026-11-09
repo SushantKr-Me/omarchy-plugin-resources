@@ -1,0 +1,23 @@
+{
+  "title": "Resources+",
+  "subtitle": "System Monitor & Hardware Telemetry",
+  "tab_overview": "Overview",
+  "tab_processes": "Processes",
+  "tab_sensors": "Sensors",
+  "tab_disks": "Disks",
+  "cpu_title": "Processor",
+  "mem_title": "Memory & Swap",
+  "gpu_title": "Graphics",
+  "net_title": "Network",
+  "disk_title": "Storage",
+  "launch_btop": "Activity (btop)",
+  "launch_htop": "htop",
+  "clean_cache": "Trim Cache",
+  "cleaning": "Trimming...",
+  "filter_all": "All",
+  "filter_cpu": "Top CPU",
+  "filter_mem": "Top RAM",
+  "filter_win": "Windows",
+  "kill_btn": "End",
+  "search_placeholder": "Search processes..."
+}

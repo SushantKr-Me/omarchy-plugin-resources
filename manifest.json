@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "sushantkr.resources",
+  "name": "Resources Pro",
+  "version": "1.0.0",
+  "author": "sushantkr",
+  "license": "MIT",
+  "description": "Advanced system resources monitor with compact multi-meter bar widget, live CPU/GPU/RAM/Swap/Disk/Network/Temp telemetry, interactive popout dashboard, per-core telemetry, and instant process manager.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Resources+",
+    "description": "Compact CPU / RAM / Swap / GPU / Disk / Net / Temp meters and popout dashboard",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
