@@ -38,51 +38,8 @@ Inspired by the compact multi-meter design of `io.github.yesm1ke.resources`, but
 
 ## Installation & Setup
 
-### 1. Dependencies
-
-Ensure Python 3 and system telemetry tools are installed:
-
-```bash
-sudo pacman -S python python-psutil btop
 ```
-
-### 2. Install Plugin
-
-Clone or copy `sushantkr.resources` into your Omarchy plugins directory:
-
-```bash
-mkdir -p ~/.config/omarchy/plugins
-cp -r sushantkr.resources ~/.config/omarchy/plugins/
-chmod +x ~/.config/omarchy/plugins/sushantkr.resources/scripts/*
-```
-
-### 3. Add to Status Bar
-
-Add the widget to `~/.config/omarchy/shell.json` inside your desired bar section (e.g. `centerEnd` or `right`):
-
-```json
-{
-  "id": "sushantkr.resources"
-}
-```
-
-Or enable it using the Omarchy CLI:
-
-```bash
-omarchy plugin enable sushantkr.resources centerEnd
-```
-
-To replace the original `io.github.yesm1ke.resources`:
-
-```bash
-omarchy plugin disable io.github.yesm1ke.resources
-omarchy plugin enable sushantkr.resources right
-```
-
-### 4. Reload Shell
-
-```bash
-omarchy restart shell
+omarchy plugin add https://github.com/SushantKr-Me/omarchy-plugin-resources.git --enable
 ```
 
 ---
